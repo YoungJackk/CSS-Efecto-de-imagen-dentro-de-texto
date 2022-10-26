@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #fcfcd7;
+}
+
+.hero {
+color: #ffffff;
+font-family: impact;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    font-size: 170px;
+    background: transparent url(https://cdn.pixabay.com/photo/2014/09/14/18/04/dandelion-445228__340.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    animation: filling 3s ease forwards;
+
+}
+
+@keyframes filling {
+    from{
+          background-position: center 25%;       
+    }
+to{
+          background-position: center 50%;
+    }
+}
